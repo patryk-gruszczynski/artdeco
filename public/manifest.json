@@ -1,11 +1,11 @@
 {
-  "name": "WTF: PWA",
-  "short_name": "WTF: PWA",
+  "name": "Art Deco",
+  "short_name": "Art Deco",
   "theme_color": "#2D2241",
   "background_color": "#2D2241",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/wtf-webpack-starter/",
+  "scope": "artdeco",
   "start_url": "/wtf-webpack-starter/",
   "icons": [
     {
