@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WTF: Webpack starter kit</title>
+    <title>Art-Deco Stolarstwo i rzeźbiarstwo</title>
     <meta name="description" content="Stolarstwo i rzeźbiarstwo Świdnica" />
     <!-- Title -->
     <meta property="og:title" content="Art Deco" />
@@ -39,11 +39,11 @@
     </header>
     <main class="main">
       
-      <header class="main__heading">
-        <h1 class="main__title">ART-DECO Stolarstwo i rzeźbiarstwo</h1>
-        </header>
+    <div class="foto"></div>
 
-      <div class="foto"></div>
+    <header class="main__heading">
+      <h1 class="main__title">ART-DECO Stolarstwo i rzeźbiarstwo</h1>
+      </header>
 
       <section class="about">
         <h2 class="about__heading">O firmie</h2>
@@ -69,8 +69,19 @@
           zamówienie i sprzedawanie jej na wyłączność dla jednego odbiorcy,
           praktykujemy taką współpracę z kontrahentem na terenie Niemiec.
         </p>
-      </section>
+         <article class="about__icons"> 
+          <h3 class="about__items">Wykwalifikowany zespół</h3>
+          <h3 class="about__items">Kreatywne pomysły</h3>
+          <h3 class="about__items">Terminowa realizacja</h3>
+          <h3 class="about__items">Rozsądne ceny</h3>
+          <img src="../assets/img/group.svg" class="about__elements">
+          <img src="../assets/img/lamp.svg" class="about__elements">
+          <img src="../assets/img/time.svg" class="about__elements">
+          <img src="../assets/img/money.svg" class="about__elements">
+        </article>
+        </section>
 
+      
       <section class="offer">
         <h2 class="offer__heading">Oferta</h2>
         <p class="offer__description">
@@ -81,7 +92,7 @@
           mieszkania, tworzymy projekty domów, produkujemy meble, wszystko to w
           odpowiedzi na indywidualne zapotrzebowanie klientów.
         </p>
-        <p class="offer__types">Wykonujemy meble wszelkiego rodzaju:</p>
+        <h2 class="offer__types">Wykonujemy meble wszelkiego rodzaju:</h2>
         <ul class="offer__list">
           <li class="offer__list--items">meble kuchenne</li>
           <li class="offer__list--items">
@@ -107,13 +118,13 @@
         <img src="../assets/img/lawka4.jpg" class="inspiration__image"/> 
         <img src="../assets/img/lawkanet.jpg" class="inspiration__image"/> 
         <img src="../assets/img/skrzynka.jpg" class="inspiration__image"/> <br/>
-
       </section>
 
       <section class="contact">
         <h2>Kontakt</h2>
-        <p>ul. Okrężna</p>
-        <p>58-100 Świdnica</p>
+        <p>ul. Okrężna</br>
+           58-100 Świdnica</p>
+        
         <h1>Wyślij wiadomość</h1>
         <form method="post" action="gruszczynski0888@gmail.com" class="form">
           <p>
@@ -125,7 +136,7 @@
           <input required class="form__item" type="text" placeholder="Napisz wiadomość..." id="content" name="content">
        </p>
        <p>
-        <input name="submit" type="submit" value="wyślij">
+        <input class="button" name="submit" type="submit" value="wyślij">
       </p>
       </section>
     </main>
